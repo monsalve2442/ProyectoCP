@@ -1,0 +1,54 @@
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(to bottom, #01ecfa, #b633a2);
+    font-family: Arial, sans-serif;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+.back-button:hover {
+    background-color: #0056b3;
+}
+
+body{
+    background: black;
+}
+.Centrar{
+    display: grid;
+    place-items: center;
+}
+
+#MasJugados{
+    color: white;
+    font-family: 'Pixelify Sans', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+section{
+    padding-top: 70px;
+    display: flex;
+    width: 1550px;
+    height: 470px;
+    justify-content: center;
+}
+
+section img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: fill;
+    opacity: 8;
+    transition: 2.5s ease;
+}
+
+section img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+
+}

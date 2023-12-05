@@ -1,0 +1,85 @@
+body {
+    background: black;
+    background-blend-mode: multiply;
+}
+
+#MasJugados{
+    color: #fff;
+}
+
+.menu {
+    background: linear-gradient(to bottom, #b633a2, #01ecfa);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    border-radius: 50px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0px 50px;
+    font-size: 25px;
+    font-family: "Poppins", sans-serif; 
+}
+
+.button-container {
+    display: inline-block;
+}
+
+.button {
+    padding: 10px 10px;
+    background-color: #b633a2;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    margin-right: -50px;
+    border-radius: 50px;
+}
+
+.ImgPrincipal{
+    text-align: center;
+}
+
+.content{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Abel', sans-serif;
+    color: white;
+}
+
+footer {
+    background: linear-gradient(to bottom, #01ecfa, #b633a2);;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    margin-bottom: 10px;
+}
+
+.footer-column {
+    flex: 0 0 calc(33.33% - 270px); 
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.footer-column p {
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+}
+
+#NombrePagina{
+    font-family: 'Pixelify Sans', cursive;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
